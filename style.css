@@ -87,7 +87,7 @@ main {
     color: red;
 }
 
-.overView.active {
+.overView {
     background-color: white;
     padding: 2rem;
     position: absolute;
@@ -104,6 +104,6 @@ main {
     margin-top: 0;
 }
 
-.movie:hover .overView.active {
+.movie:hover .overView {
     transform: translateY(0);
 }

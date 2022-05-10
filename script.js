@@ -38,15 +38,6 @@ function showMovies(movies) {
     `
         main.appendChild(movieEl)
     })
-
-    const active = document.querySelector('.overView')
-    active.addEventListener('click', () => {
-        if(active.classList.contains('active')) {
-            active.classList.remove('active')
-        } else {
-            active.classList.add('active')
-        }
-    })
 }
 
 function getClassByRate(vote) {
