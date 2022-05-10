@@ -87,7 +87,7 @@ main {
     color: red;
 }
 
-.overView {
+.overView.active {
     background-color: white;
     padding: 2rem;
     position: absolute;
